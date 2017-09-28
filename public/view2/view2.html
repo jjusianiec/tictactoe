@@ -1,6 +1,9 @@
-<div class="canvas-container">
-
-    <canvas id="canvas" width="500" height="500">
-
-    </canvas>
+<div>
+    <div class="canvas-container">
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <button ng-if="endGame"
+            ng-click="replay()"
+            class="btn btn-warning replay-button">Replay
+    </button>
 </div>
